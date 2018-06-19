@@ -1,5 +1,4 @@
 const tmi = require("tmi.js");
-const haikudos = require("haikudos");
 const config = require("./config");
 const exec = require("child_process").exec;
 
