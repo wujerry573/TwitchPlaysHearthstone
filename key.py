@@ -49,34 +49,30 @@ keyMap = [
   "E12",
   "E13"]
 
-counter = 0;
+commandArray = []
+filledArray = False
 
-def test():
-    global counter
 
-    if counter == 0:
-        pyautogui.moveTo(1162, 1057, 0.5, pyautogui.easeOutQuad)
+def insertIntoArray():
+        pyautogui.moveTo(738, 842, 0.5, pyautogui.easeOutQuad)
         pyautogui.mouseDown(button='left')
-        counter += 1
-
-    if counter == 1:
-        pyautogui.moveTo(955, 583, 0.5, pyautogui.easeOutQuad)
+        pyautogui.moveTo(722, 503, 0.5, pyautogui.easeOutQuad)
         pyautogui.mouseUp(button='left')
-        counter -= 1
 
     # pyautogui.dragTo(1348, 556, 0.5, pyautogui.easeOutQuad)
     # print(pyautogui.position())
 
 
-time.sleep(0.1)
+# def executeCommand():
+#     print('hello')
+
+
+time.sleep(3)
 
 
 if sys.argv[1] in keyMap:
-    x = 1
+    insertIntoArray()
 
-    while (x != 2):
-        test()
-        x += 1
 
 
 # print('hello!')
