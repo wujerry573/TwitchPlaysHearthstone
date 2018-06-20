@@ -53,6 +53,8 @@ let keyMap = [
   "E13"
 ];
 
+let arrayToSend = [];
+
 function connectionCheck(address, port) {
   console.log(`connected to ${address}:${port}`);
 }
@@ -61,8 +63,17 @@ function readMessage(target, context, message, self) {
   if (self) {
     return;
   }
-  if (keyMap.includes(message)) {
-    exec("python3 key.py " + message);
-    console.log(message);
+
+  let command = message.toUpperCase();
+
+  if (keyMap.includes(command)) {
+    let command = message.toUpperCase();
+    arrayToSend.push(command);
+    if (arrayToSend.length === 2) {
+      exec("python3 key.py " + arrayToSend[0] + " " + arrayToSend[1]);
+      console.log(arrayToSend);
+      arrayToSend = [];
+    }
   }
 }
+
