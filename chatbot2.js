@@ -62,7 +62,7 @@ function readMessage(target, context, message, self) {
     return;
   }
   if (keyMap.includes(message)) {
-    exec("python3 key.py " + message);
+    exec("key.py " + message);
     console.log(message);
   }
 }

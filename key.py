@@ -55,12 +55,12 @@ def test():
     global counter
 
     if counter == 0:
+        pyautogui.moveTo(1162, 1057, 0.5, pyautogui.easeOutQuad)
         pyautogui.mouseDown(button='left')
-        pyautogui.moveTo(1348, 556, 0.5, pyautogui.easeOutQuad)
         counter += 1
 
     if counter == 1:
-        pyautogui.moveTo(250, 556, 0.5, pyautogui.easeOutQuad)
+        pyautogui.moveTo(955, 583, 0.5, pyautogui.easeOutQuad)
         pyautogui.mouseUp(button='left')
         counter -= 1
 
@@ -68,7 +68,7 @@ def test():
     # print(pyautogui.position())
 
 
-time.sleep(2)
+time.sleep(0.1)
 
 
 if sys.argv[1] in keyMap:
