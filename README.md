@@ -11,3 +11,7 @@ Tested and working on Windows 10 and MacOS
 
 Installation
 ----------------------
+### Windows
+download and install node.js from https://nodejs.org/download/
+#cloning the repository
+https://github.com/wujerry573/TwitchPlaysHearthstone.git
