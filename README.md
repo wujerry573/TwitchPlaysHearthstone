@@ -13,8 +13,8 @@ Installation
 ----------------------
 ### Windows
 - Download and install node.js and python
- - node.js: https://nodejs.org/download/
- - python 3: https://www.python.org/downloads/release/python-365/
+ - Node.js: https://nodejs.org/download/
+ - Python 3: https://www.python.org/downloads/release/python-365/
 
 - Clone the repo
   - git clone https://github.com/wujerry573/TwitchPlaysHearthstone.git
