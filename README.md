@@ -12,7 +12,15 @@ Tested and working on Windows 10 and MacOS
 Installation
 ----------------------
 ### Windows
-- Download and install node.js from https://nodejs.org/download/
+- Download and install node.js and python
+ - https://nodejs.org/download/ for node.js
+ - https://www.python.org/downloads/release/python-365/ for python 3
 
 - Clone the repo
   - git clone https://github.com/wujerry573/TwitchPlaysHearthstone.git
+  
+- Initialize node modules
+  - npm install
+  
+- Initialize python modules (pyautogui)
+  -pip install pyautogui
