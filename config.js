@@ -6,10 +6,10 @@ let config = {
     reconnect: true
   },
   identity: {
-    username: "darwinnn_bot",
-    password: "oauth:b7uto4ee0km9pi8a2e877x7ijj5ejc"
+    username: "your username",
+    password: "your oauth token"
   },
-  channels: ["darwinnn_"]
+  channels: ["your channel name"]
 };
 
 module.exports = config;
