@@ -61,15 +61,12 @@ function connectionCheck(address, port) {
 
 function readMessage(target, context, message) {
   let command = message.toUpperCase();
-  if(command === 'END') {
-    exec("key.py END END");
-  } else if (keyMap.includes(command)) {
-    let command = message.toUpperCase();
-    arrayToSend.push(command);
-    if (arrayToSend.length === 2) {
-      exec("key.py " + arrayToSend[0] + " " + arrayToSend[1]);
-      console.log(arrayToSend);
-      arrayToSend = [];
+  if (keyMap.includes(command)) {
+    if (config.os === "windows") {
+      exec("key.py " + command);
+    } else {
+      exec("python3 key.py " + command);
     }
+    console.log(command);
   }
 }

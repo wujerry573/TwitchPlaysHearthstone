@@ -2,14 +2,15 @@ let config = {
   options: {
     debug: true
   },
+  os: "windows or mac",
   connection: {
     reconnect: true
   },
   identity: {
     username: "your username",
-    password: "your oauth token"
+    password: "your OAUTH token"
   },
-  channels: ["your channel name"]
+  channels: ["your channel name(usually your username)"]
 };
 
 module.exports = config;

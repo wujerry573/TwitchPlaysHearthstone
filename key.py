@@ -2,6 +2,7 @@ import pyautogui
 import time
 import sys
 
+key1 = sys.argv[1]
 
 keyMap = {
   "FACE": [962, 204],#[842,asd]
@@ -47,16 +48,13 @@ keyMap = {
 }
 
 
-time.sleep(1)
-key1 = sys.argv[1]
-key2 = sys.argv[2]
-
-if key1 == 'END':
-    pyautogui.moveTo(keyMap[key1][0], keyMap[key2][1], 0.5)
-    pyautogui.click(clicks=1, button='left')
-else:
+def execute():
     pyautogui.moveTo(keyMap[key1][0], keyMap[key1][1], 0.5, pyautogui.easeOutQuad)
-    pyautogui.mouseDown(button='left')
-    pyautogui.moveTo(keyMap[key2][0], keyMap[key2][1], 0.5, pyautogui.easeOutQuad)
-    pyautogui.mouseUp(button='left')
+    pyautogui.click(clicks=1, button='left')
+
+
+time.sleep(1)
+execute()
+
+
 
