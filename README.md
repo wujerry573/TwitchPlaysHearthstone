@@ -18,9 +18,11 @@ Installation
 
 - Clone the repo
   - git clone https://github.com/wujerry573/TwitchPlaysHearthstone.git
+  - cd TwitchPlaysHearthstone
   
 - Initialize node modules
   - npm install
   
 - Initialize python modules (pyautogui)
   - pip install pyautogui
+
