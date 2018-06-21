@@ -5,5 +5,5 @@ Connects to Twitch chat via IRC to receive and send commands to a python script,
 Tested and working on Windows 10 and MacOS
 
 # Example:
-![](https://gifs.com/gif/twitch-chat-plays-hearthstone-l5yjr1)
+![](https://giphy.com/gifs/5zblpopO3ekPg7BW6F)
 > Check DisguistedToastHS at http://twitch.tv/disguisedtoasths
