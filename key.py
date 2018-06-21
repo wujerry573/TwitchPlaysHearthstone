@@ -51,9 +51,12 @@ time.sleep(1)
 key1 = sys.argv[1]
 key2 = sys.argv[2]
 
-
-pyautogui.moveTo(keyMap[key1][0], keyMap[key1][1], 0.5, pyautogui.easeOutQuad)
-pyautogui.mouseDown(button='left')
-pyautogui.moveTo(keyMap[key2][0], keyMap[key2][1], 0.5, pyautogui.easeOutQuad)
-pyautogui.mouseUp(button='left')
+if key1 == 'END':
+    pyautogui.moveTo(keyMap[key1][0], keyMap[key2][1], 0.5)
+    pyautogui.click(clicks=1, button='left')
+else:
+    pyautogui.moveTo(keyMap[key1][0], keyMap[key1][1], 0.5, pyautogui.easeOutQuad)
+    pyautogui.mouseDown(button='left')
+    pyautogui.moveTo(keyMap[key2][0], keyMap[key2][1], 0.5, pyautogui.easeOutQuad)
+    pyautogui.mouseUp(button='left')
 
