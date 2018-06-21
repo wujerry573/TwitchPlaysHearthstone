@@ -23,4 +23,4 @@ Installation
   - npm install
   
 - Initialize python modules (pyautogui)
-  -pip install pyautogui
+  - pip install pyautogui
