@@ -1,4 +1,4 @@
-# TwitchPlaysHearthstone
+# Twitch Plays Hearthstone
 Inspired by TwitchPlaysPokemon and DisguistedToastHS
 
 Connects to Twitch chat via IRC to receive and send commands to a python script that controlls Hearthstone
