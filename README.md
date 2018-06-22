@@ -16,7 +16,7 @@ Tested and working on Windows 10 and MacOS
 The bot reads every line of chat from twitch chat and will move to the command location and click
 
 - For example, H5 will move the mouse to the card in hand at H5 and pick it up
-- A subsequent command i.e B7 will move the card to B7 on the board and then drop it
+  - A subsequent command i.e B7 will move the card to B7 on the board and then drop it
 
 - Currently, the coordinates are hard-coded for 1080p and won't work for any other resolution unless they are changed manually
   - A python script to find monitor coordinates is included in the repo
