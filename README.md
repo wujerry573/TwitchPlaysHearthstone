@@ -25,8 +25,8 @@ The bot reads every line of chat from twitch chat and will move to the command l
 ```sh
 #Download and install node.js and python
 
-Node.js: https://nodejs.org/download/
-Python 3: https://www.python.org/downloads/release/python-365/
+[Node.js](https://nodejs.org/download/)
+[Python 3](https://www.python.org/downloads/release/python-365/)
 
 #Clone the repo
 
