@@ -10,8 +10,6 @@ Tested and working on Windows 10 and MacOS
 
 ![](https://media.giphy.com/media/5zblpopO3ekPg7BW6F/giphy.gif)
 
-> Check [DisguistedToastHS](http://twitch.tv/disguisedtoasths) on Twitch!
-
 ## How it works
 
 The bot reads every line of chat from twitch chat and will move to the command location and click
