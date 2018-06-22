@@ -55,9 +55,11 @@ Edit the config.js file to your Twitch username, OAUTH token, and channel name
 node chatbot.js
 ```
 
-## Future Plans
+## Future Plans (06/21/18)
 
-(06/21/18) An anarchy and democracy mode is being planned currently as well as a coordinate converter for different resolutions
+- Anarchy and democracy mode
+
+- Coordinate converter for different resolutions
 
 ## Contact me
 
@@ -65,4 +67,4 @@ Feel free to send me questions, comments, suggestions, and report bugs to wu573@
 
 ## Special thanks
 
-Thanks to Eliot and Charley for testing early versions of the code
+Shout out to Eliot and Charley for testing early versions of the code
