@@ -2,15 +2,14 @@
 
 Inspired by [TwitchPlaysPokemon](https://www.twitch.tv/twitchplayspokemon) and [DisguistedToastHS](http://twitch.tv/disguisedtoasths)
 
-Connects a chat bot to Twitch chat via IRC to receive and send commands to a python script that controlls Hearthstone
+Connects a chat bot to Twitch chat via IRC to receive and send commands to a python script that controls Hearthstone
 
 Tested and working on Windows 10 and MacOS
 
 ## Example:
 
 ![](https://media.giphy.com/media/5zblpopO3ekPg7BW6F/giphy.gif)
-
-> Check [DisguistedToastHS](http://twitch.tv/disguisedtoasths) on Twitch!
+> DisguistedToastHS
 
 ## How it works
 
