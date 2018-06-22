@@ -2,7 +2,7 @@ const tmi = require("tmi.js");
 const config = require("./config");
 const exec = require("child_process").exec;
 
-let client = new tmi.client(config);
+let client = new tmi.client(config.config);
 
 client.on("message", readChat);
 
@@ -23,7 +23,7 @@ function sendChat(target, context, message) {
 function readChat(target, context, message) {
   let command = message.toUpperCase();
   if (config.keyMap.includes(command)) {
-    if (config.os === "windows") {
+    if (config.config.os === "windows") {
       exec("key.py " + command);
     } else {
       exec("python3 key.py " + command);

@@ -2,7 +2,7 @@
 
 Inspired by [TwitchPlaysPokemon](https://www.twitch.tv/twitchplayspokemon) and [DisguistedToastHS](http://twitch.tv/disguisedtoasths)
 
-Connects a chat bot to Twitch chat via IRC to receive and send commands to a python script that controlls Hearthstone
+Connects a chat bot to Twitch chat via IRC to receive and send commands to a python script that controls Hearthstone
 
 Tested and working on Windows 10 and MacOS
 
@@ -10,11 +10,11 @@ Tested and working on Windows 10 and MacOS
 
 ![](https://media.giphy.com/media/5zblpopO3ekPg7BW6F/giphy.gif)
 
-> Check [DisguistedToastHS](http://twitch.tv/disguisedtoasths) on Twitch!
+> DisguistedToastHS
 
 ## How it works
 
-The bot reads every line of chat from twitch chat and will move to the command location and click
+The bot reads every line of chat from twitch chat and will move to the command coordinate and click
 
 - For example, H5 will move the mouse to the card in hand at H5 and pick it up
 - A subsequent command i.e B7 will move the card to B7 on the board and then drop it

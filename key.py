@@ -53,7 +53,7 @@ def execute():
     pyautogui.click(clicks=1, button='left')
 
 
-time.sleep(1)
+time.sleep(0.1)
 execute()
 
 

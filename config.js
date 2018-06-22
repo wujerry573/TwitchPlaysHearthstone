@@ -2,15 +2,15 @@ let config = {
   options: {
     debug: true
   },
-  os: "windows or mac",
+  os: "windows",
   connection: {
     reconnect: true
   },
   identity: {
-    username: "your username",
-    password: "your OAUTH token"
+    username: "darwinnn_bot",
+    password: "oauth:gg6kwfnif6r7r839dzxp37mzgahdkn"
   },
-  channels: ["your channel name(usually your username)"]
+  channels: ["darwinnn_"]
 };
 
 const keyMap = [
