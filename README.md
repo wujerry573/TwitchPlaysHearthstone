@@ -1,65 +1,69 @@
 # Twitch Plays Hearthstone
 
-Inspired by TwitchPlaysPokemon and DisguistedToastHS
+Inspired by [TwitchPlaysPokemon](https://www.twitch.tv/twitchplayspokemon) and [DisguistedToastHS](http://twitch.tv/disguisedtoasths)
 
 Connects a chat bot to Twitch chat via IRC to receive and send commands to a python script that controlls Hearthstone
 
 Tested and working on Windows 10 and MacOS
 
-# Example:
+## Example:
 
 ![](https://media.giphy.com/media/5zblpopO3ekPg7BW6F/giphy.gif)
 
-> Check DisguistedToastHS at http://twitch.tv/disguisedtoasths
+> Check [DisguistedToastHS](http://twitch.tv/disguisedtoasths) on Twitch!
 
 ## How it works
 
-The bot receives every single command from twitch chat and feeds two commands at a time to the python script
+The bot reads every line of chat from twitch chat and will move to the command location and click
 
-- For example, H5 B7 will play a card in your hand at H5 and bring it to the board at B7
-  - Commands must be entered one at a time and are executed in pairs
+- For example, H5 will move the mouse to the card in hand at H5 and pick it up
+- A subsequent command i.e B7 will move the card to B7 on the board and then drop it
 
-The python script will run after receiving two commands and move the mouse to the respective coordinates
-
-- Currently, the coordinates are hard coded for 1080p and won't work for any other resolution unless they are changed manually
-  - A coordinate finder python script is included in the repo
+- Currently, the coordinates are hard-coded for 1080p and won't work for any other resolution unless they are changed manually
+  - A python script to find monitor coordinates is included in the repo
 
 ## Installation
 
-Download and install node.js and python
+```sh
+#Download and install node.js and python
 
-- Node.js: https://nodejs.org/download/
-- Python 3: https://www.python.org/downloads/release/python-365/
+Node.js: https://nodejs.org/download/
+Python 3: https://www.python.org/downloads/release/python-365/
 
-Clone the repo
+#Clone the repo
 
-- git clone https://github.com/wujerry573/TwitchPlaysHearthstone.git
-- cd TwitchPlaysHearthstone
+git clone https://github.com/wujerry573/TwitchPlaysHearthstone.git
+cd TwitchPlaysHearthstone
 
-Initialize node modules
+#Install Twitch node modules
 
-- npm install
+npm install twi.js
 
-Initialize python modules (pyautogui)
+#Install python modules (pyautogui)
 
-- pip install pyautogui (python 2) or pip3 install pyautogui (python 3)
+pip install pyautogui (python 2) or pip3 install pyautogui (python 3)
+```
 
-## Setup up config
+## Setup up config file
 
-Edit the config.js file to your twitch username, OAUTH token, and channel name
+Edit the config.js file to your Twitch username, OAUTH token, and channel name
 
-- http://www.twitchapps.com/tmi to generate your token
+- http://www.twitchapps.com/tmi to generate your OAUTH token
 
 ## Running the bot
 
 ```sh
-node chatbotMac.js or chatbotWindows.js to start the bot depending on your OS
+node chatbot.js
 ```
 
 ## Future Plans
 
-An anarchy and democracy mode is being planned currently as well as a coordinate converter for different resolutions
+(06/21/18) An anarchy and democracy mode is being planned currently as well as a coordinate converter for different resolutions
 
-## Contributions
+## Contact me
 
-Feel free to send me comments, suggestions, or reviews to wu573@gmail.com
+Feel free to send me questions, comments, suggestions, and report bugs to wu573@gmail.com
+
+## Special thanks
+
+Thanks to Eliot and Charley for testing early versions of the code

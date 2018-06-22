@@ -6,7 +6,5 @@ def find():
 
 
 x = True
-
-
 while x:
     find()
