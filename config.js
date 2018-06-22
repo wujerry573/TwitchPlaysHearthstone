@@ -56,4 +56,6 @@ const keyMap = [
   "E13"
 ];
 
-module.exports = { config, keyMap };
+let voteOptions = ["anarchy", "democracy"];
+
+module.exports = { config, keyMap, voteOptions };
