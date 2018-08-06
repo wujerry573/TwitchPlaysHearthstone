@@ -2,7 +2,7 @@ const config = {
   options: {
     debug: true
   },
-  os: "mac",
+  os: "windows",
   connection: {
     reconnect: true
   },

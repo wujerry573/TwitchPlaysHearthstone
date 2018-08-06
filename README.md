@@ -14,7 +14,9 @@ Tested and working on Windows 10 and MacOS
 
 ## How it works
 
-The bot reads every line of chat from twitch chat and will move to the command coordinate and click
+The bot reads every line of chat from twitch chat and will move to the command coordinate and click on the specified location
+
+Additionally, votes can vote for anarchy (all commands are run) or democracy (users vote for a series of commands)
 
 - For example, H5 will move the mouse to the card in hand at H5 and pick it up
   - A subsequent command i.e B7 will move the card to B7 on the board and then drop it
@@ -56,9 +58,7 @@ Edit the config.js file to your Twitch username, OAUTH token, and channel name
 node chatbot.js
 ```
 
-## Future Plans (06/21/18)
-
-- Anarchy and democracy mode
+## Future Plans
 
 - Coordinate converter for different resolutions
 
@@ -68,4 +68,4 @@ Feel free to send me questions, comments, suggestions, and report bugs to wu573@
 
 ## Special thanks
 
-Shout out to Eliot and Charley for testing early versions of the code
+Shout out to Eliot and Charley for testing beta versions of the code

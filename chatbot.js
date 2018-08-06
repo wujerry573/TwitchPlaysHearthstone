@@ -6,7 +6,7 @@ const _unct = require("underscore");
 let client = new tmi.client(config.config);
 
 //default mode is anarchy, or false. true is democray
-let government = true;
+let government = false;
 let voteCounter = 0;
 
 client.connect();
@@ -14,14 +14,7 @@ client.on("connected", connectionCheck);
 client.on("whisper", rtv);
 
 client.on("message", readMessage);
-// if (government) {
-//   console.log(government);
-//   client.on("message", democracyMode);
-// } else {
-//   console.log("in anarchy", government);
-//   console.log(government);
-//   client.on("message", anarchyMode);
-// }
+
 
 function connectionCheck(address, port) {
   console.log(`connection successful to ${address}:${port}`);
