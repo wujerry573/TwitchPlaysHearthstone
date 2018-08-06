@@ -64,7 +64,7 @@ node chatbot.js
 
 ## Contact me
 
-Feel free to send me questions, comments, suggestions, and report bugs to wu573@gmail.com
+Feel free to send me questions, comments, suggestions, and report bugs to wujerry573@gmail.com
 
 ## Special thanks
 
